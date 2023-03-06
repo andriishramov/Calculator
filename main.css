@@ -108,3 +108,51 @@ body {
 #point {
     background-color: #4b4b4b;
 }
+.buttons:hover {
+    background-color: rgba(255,129,0,0.56);
+}
+#zero:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#reset:hover {
+    background-color: rgba(255,241,248,0.39);
+}
+#change-sign:hover {
+    background-color: rgba(255,241,248,0.39);
+}
+#percent:hover {
+    background-color: rgba(255,241,248,0.39);
+}
+#one:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#two:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#three:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#four:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#five:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#six:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#seven:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#eight:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#nine:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#zero:hover {
+    background-color: rgba(75,75,75,0.17);
+}
+#point:hover {
+    background-color: rgba(75,75,75,0.17);
+}
