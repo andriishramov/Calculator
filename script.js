@@ -18,9 +18,18 @@ resetBtn.addEventListener('click', function (){
     output1.textContent = '';
     output2.textContent = '0';
 })
+document.querySelector("#change-sign").addEventListener('click', function (){
+    num1 = num1 * -1;
+    output2.textContent = num1;
+})
+document.querySelector("#percent").addEventListener('click', function (){
+    num1 = num1 * 0.01;
+    output2.textContent = num1;
+})
 document.querySelector('#buttons-container').addEventListener('click', function (e){
     if (!e.target.classList.contains('buttons')) return;
     if (e.target.classList.contains('reset')) return;
+
     output1.textContent = '';
     const key = e.target.textContent;
     if (numbers.includes(key)) {
@@ -72,7 +81,9 @@ document.querySelector('#buttons-container').addEventListener('click', function 
         finish = true
         output2.textContent = num1
     }
-})
+
+}
+)
 
 
 

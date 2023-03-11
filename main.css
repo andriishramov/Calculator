@@ -26,6 +26,7 @@ body {
     justify-content: end;
     font-size: 70px;
     padding: 0 10px 10px 10px;
+    maxlenght: 10
 }
 #show-calculation {
     height: 50px;
@@ -59,6 +60,8 @@ body {
     text-align: center;
     line-height: 53px;
     font-weight: bold;
+    cursor: pointer;
+
 }
 #zero {
     width: 130px;
